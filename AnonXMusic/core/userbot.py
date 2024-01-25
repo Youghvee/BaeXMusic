@@ -11,35 +11,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="AnonXAss1",
+            name="Ryn1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="AnonXAss2",
+            name="Ryn2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="AnonXAss3",
+            name="Ryn3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="AnonXAss4",
+            name="Ryn4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="AnonXAss5",
+            name="Ryn5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("nakama_asl")
-                await self.one.join_chat("faiirymutualan")
+                await self.one.join_chat("rxvthv")
+                await self.one.join_chat("aboutcsv")
             except:
                 pass
             assistants.append(1)
@@ -72,8 +72,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.one.join_chat("nakama_asl")
-                await self.one.join_chat("faiirymutualan")
+                await self.one.join_chat("rxvthv")
+                await self.one.join_chat("aboutcsv")
             except:
                 pass
             assistants.append(2)
@@ -93,8 +93,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.one.join_chat("nakama_asl")
-                await self.one.join_chat("faiirymutualan")
+                await self.one.join_chat("rxvthv")
+                await self.one.join_chat("aboutcsv")
             except:
                 pass
             assistants.append(3)
@@ -114,8 +114,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.one.join_chat("nakama_asl")
-                await self.one.join_chat("faiirymutualan")
+                await self.one.join_chat("rxvthv")
+                await self.one.join_chat("aboutcsv")
             except:
                 pass
             assistants.append(4)
@@ -135,8 +135,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.one.join_chat("nakama_asl")
-                await self.one.join_chat("faiirymutualan")
+                await self.one.join_chat("rxvthv")
+                await self.one.join_chat("aboutcsv")
             except:
                 pass
             assistants.append(5)
