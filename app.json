@@ -39,7 +39,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "936922513",
         "required": true
       },
       "MUST_JOIN": {
