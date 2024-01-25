@@ -1,5 +1,5 @@
 import re
-from AnonXMusic import Anony
+from AnonXMusic.core.bot import Anony
 
 from dotenv import load_dotenv
 from pyrogram import filters
