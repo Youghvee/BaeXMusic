@@ -115,6 +115,7 @@ fi
 
 echo """API_ID = $api_id
 API_HASH = $api_hash
+MUST_JOIN = $must_join
 BOT_TOKEN = $bot_token
 MONGO_DB_URI = $mongo_db
 LOGGER_ID = $logger
